@@ -1,0 +1,20 @@
+/* Acento de marca Joyero Digital (cyan / petróleo) sobre el tema Starlight */
+:root {
+  --sl-color-accent-low: #16323e;
+  --sl-color-accent: #22b8cf;
+  --sl-color-accent-high: #c5f1f8;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #edf4f6;
+  --sl-color-gray-2: #c8d8de;
+  --sl-color-gray-3: #93abb4;
+  --sl-color-gray-4: #5d7680;
+  --sl-color-gray-5: #3a4d55;
+  --sl-color-gray-6: #27373f;
+  --sl-color-black: #16232a;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent: #0e8aa0;
+  --sl-color-accent-high: #123a45;
+  --sl-color-accent-low: #d3eef3;
+}
